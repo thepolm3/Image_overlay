@@ -1,0 +1,13 @@
+INPUT_FOLDER = Input
+OUTPUT_FOLDER = Output
+OVERLAY_IMAGE = overlay.png
+
+# false/true 
+# if false fits to overlay.png
+# if true fits to the source image
+FIT_TO_SOURCE = false		
+
+#  SIZE = (200, 200), overrides autofit.
+#  Set to false or delete line to disable
+#
+SIZE = False

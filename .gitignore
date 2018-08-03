@@ -109,3 +109,4 @@ Input/*
 Output/*
 !Output/.gitkeep 
 *.spec
+compile.bat
