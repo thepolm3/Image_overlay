@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#want folder but not files in the folder
+Input/*
+!Input/.gitkeep 
+Output/*
+!Output/.gitkeep 
+*.spec
