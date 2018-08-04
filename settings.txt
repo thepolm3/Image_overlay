@@ -1,13 +1,12 @@
 INPUT_FOLDER = Input
 OUTPUT_FOLDER = Output
 OVERLAY_IMAGE = overlay.png
+OUTPUT_SIZE = smaller
 
-# false/true 
-# if false fits to overlay.png
-# if true fits to the source image
-FIT_TO_SOURCE = false		
-
-#  SIZE = (200, 200), overrides autofit.
-#  Set to false or delete line to disable
 #
-SIZE = False
+#  OUTPUT_SIZE = 200, 200	# set image output size, in pixels
+#  OUTPUT_SIZE = smaller	# output smaller of image and overlay
+#  OUTPUT_SIZE = larger		# output larger of image and overlay
+#  OUTPUT_SIZE = source		# output same size as source image
+#  OUTPUT_SIZE = overlay	# output same size as overlay
+#
